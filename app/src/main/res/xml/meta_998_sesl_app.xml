@@ -6,7 +6,7 @@
     <AppMetaData
         Name="template-kotlin"
         TargetApi="21"
-        TargetPackageName="oui.template.kotlin"
+        TargetPackageName="oui.template.edgevolume"
         VersionCode="1"
         VersionName="">
         <Include RefName="SESL" />

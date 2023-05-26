@@ -4,17 +4,17 @@ plugins {
 }
 
 android {
-    namespace 'oui.template.kotlin' /*TODO: change packageName*/
+    namespace 'com.newagedevs.edgevolume'
     compileSdk 33
 
     defaultConfig {
-        applicationId "oui.template.kotlin" /*TODO: change packageName*/
+        applicationId "com.newagedevs.edgevolume"
         minSdk 26
         targetSdk 33
         versionCode 1
         versionName "1.0.0"
 
-        resConfigs 'en' /*TODO: add supported languages*/
+        resConfigs 'en'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -46,7 +46,7 @@ configurations.all {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.10.0'
+    implementation 'androidx.core:core-ktx:1.10.1'
 
     implementation 'io.github.oneuiproject:design:1.2.3'
     implementation 'io.github.oneuiproject:icons:1.0.1'

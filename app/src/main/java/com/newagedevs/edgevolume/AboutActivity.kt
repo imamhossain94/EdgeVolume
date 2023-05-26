@@ -1,4 +1,4 @@
-package oui.template.kotlin
+package com.newagedevs.edgevolume
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
